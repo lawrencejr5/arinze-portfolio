@@ -1566,6 +1566,10 @@
     display: none;
   }
 
+  .statusPill {
+    display: none;
+  }
+
   .mobileMenuBtn {
     display: block;
   }

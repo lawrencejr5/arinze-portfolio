@@ -15,14 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Udoye Arinze — Mobile & Web App Developer",
   description:
-    "Portfolio of Udoye Arinze, an App Developer based in Nigeria specializing in mobile-first applications, responsive digital products, and performant user experiences. Creator of Fareexplore.",
+    "Portfolio of Udoye Arinze, an App Developer based in Enugu, Nigeria specializing in mobile-first applications, responsive digital products, and performant user experiences. Creator of Fare Tour.",
   keywords: [
     "Udoye Arinze",
     "App Developer",
     "Mobile Developer",
+    "Enugu App Developer",
     "Nigeria App Developer",
     "Frontend Developer",
-    "Fareexplore",
+    "Fare Tour",
     "Software Engineer",
     "React",
     "Next.js",
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Udoye Arinze — App Developer Portfolio",
     description:
-      "App Developer based in Nigeria. Building clean, high-performance mobile experiences. Featured project: Fareexplore.",
+      "App Developer based in Enugu, Nigeria. Building clean, high-performance mobile experiences. Featured project: Fare Tour.",
     type: "website",
     locale: "en_US",
   },

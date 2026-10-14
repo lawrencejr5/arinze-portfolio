@@ -113,7 +113,7 @@ export default function Home() {
     const text = `Hi Arinze, my name is ${inquiryName || "Recruiter"}. ${inquiryMessage || "I'd like to discuss an App Developer role with you."} (Email: ${inquiryEmail || "N/A"})`;
     if (channel === "whatsapp") {
       window.open(
-        `https://wa.me/2348000000000?text=${encodeURIComponent(text)}`,
+        `https://wa.me/2348162457381?text=${encodeURIComponent(text)}`,
         "_blank",
       );
     } else {
@@ -208,7 +208,7 @@ export default function Home() {
               className={styles.navLink}
               onClick={() => setMobileMenuOpen(false)}
             >
-              Flagship Project (Fareexplore)
+              Flagship Project (Fare Tour)
             </a>
             <a
               href="#architecture"
@@ -254,7 +254,7 @@ export default function Home() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                Nigeria 🇳🇬
+                Enugu, Nigeria 🇳🇬
               </span>
               <span>· App Developer</span>
             </div>
@@ -263,7 +263,7 @@ export default function Home() {
               Hi, I am{" "}
               <span className={styles.heroTitleHighlight}>Udoye Arinze</span>
               <br />
-              an app developer based in Nigeria.
+              an app developer based in Enugu, Nigeria.
             </h1>
 
             <p className={styles.heroBio}>
@@ -318,7 +318,7 @@ export default function Home() {
               <div className={styles.socialsList}>
                 {/* X (Twitter) */}
                 <a
-                  href="https://x.com"
+                  href="https://x.com/udoye_Michael"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.socialItem}
@@ -360,7 +360,7 @@ export default function Home() {
 
                 {/* WhatsApp */}
                 <a
-                  href="https://wa.me/2348000000000?text=Hi%20Arinze%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect%21"
+                  href="https://wa.me/2348162457381?text=Hi%20Arinze%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect%21"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.socialItem}
@@ -440,12 +440,12 @@ export default function Home() {
       </section>
 
       {/* --------------------------------------------------------------------
-          FEATURED FLAGSHIP PROJECT (FAREEXPLORE CASE STUDY)
+          FEATURED FLAGSHIP PROJECT (FARE TOUR CASE STUDY)
           -------------------------------------------------------------------- */}
       <section id="flagship" className={styles.projectSection}>
         <div className={styles.sectionHeader}>
           <div className={styles.sectionBadge}>Flagship App Showcase</div>
-          <h2 className={styles.sectionTitle}>Fareexplore (Fare Tour)</h2>
+          <h2 className={styles.sectionTitle}>Fare Tour</h2>
           <p className={styles.sectionSubtitle}>
             A mobile-first food tour and dining discovery application engineered
             with interactive catalogs, real-time cart computation, and an order
@@ -457,12 +457,12 @@ export default function Home() {
           {/* Left: Detailed Case Study Info */}
           <div className={styles.caseStudyDetails}>
             <div className={styles.appMetaRow}>
-              <span className={styles.appName}>Fareexplore</span>
+              <span className={styles.appName}>Fare Tour</span>
               <span className={styles.appTag}>Food & Dining App</span>
             </div>
 
             <p className={styles.caseStudyDescription}>
-              Fareexplore was conceptualized and developed to address the
+              Fare Tour was conceptualized and developed to address the
               challenge of navigating diverse local culinary spots and
               streamlining order delivery. Built from the ground up with a
               mobile-first philosophy, it emphasizes finger-friendly hit
@@ -613,7 +613,7 @@ export default function Home() {
                 className={`${styles.screenTab} ${activeScreen === "explore" ? styles.screenTabActive : ""}`}
                 onClick={() => setActiveScreen("explore")}
               >
-                🍽️ Cuisines & Menu
+                🍽️ Menu
               </button>
               <button
                 className={`${styles.screenTab} ${activeScreen === "cart" ? styles.screenTabActive : ""}`}
@@ -625,7 +625,7 @@ export default function Home() {
                 className={`${styles.screenTab} ${activeScreen === "tracker" ? styles.screenTabActive : ""}`}
                 onClick={() => setActiveScreen("tracker")}
               >
-                📍 Live Tracker
+                📍 Tracker
               </button>
               <button
                 className={`${styles.screenTab} ${activeScreen === "architecture" ? styles.screenTabActive : ""}`}
@@ -653,13 +653,13 @@ export default function Home() {
                 {/* In-app Top Nav */}
                 <div className={styles.phoneHeader}>
                   <span className={styles.phoneHeaderTitle}>
-                    {activeScreen === "explore" && "Fareexplore Discovery"}
+                    {activeScreen === "explore" && "Fare Tour Discovery"}
                     {activeScreen === "cart" && "Your Dining Cart"}
                     {activeScreen === "tracker" && "Order Tracker #FT-8492"}
                     {activeScreen === "architecture" && "Engineering Structure"}
                   </span>
                   <span style={{ fontSize: "0.75rem", color: "#71717a" }}>
-                    Lagos 📍
+                    Enugu 📍
                   </span>
                 </div>
 
@@ -854,7 +854,7 @@ export default function Home() {
                             <span>₦{cartSubtotal.toLocaleString()}</span>
                           </div>
                           <div className={styles.simSummaryRow}>
-                            <span>Delivery to Lagos</span>
+                            <span>Delivery to Enugu</span>
                             <span>₦{deliveryFee.toLocaleString()}</span>
                           </div>
                           <div className={styles.simSummaryTotal}>
@@ -902,7 +902,7 @@ export default function Home() {
                           marginTop: "2px",
                         }}
                       >
-                        ● Rider En Route (Lekki Phase 1)
+                        ● Rider En Route (Independence Layout, Enugu)
                       </div>
                     </div>
 
@@ -1199,7 +1199,7 @@ export default function Home() {
                 <div
                   style={{ fontSize: "0.8rem", color: "var(--text-tertiary)" }}
                 >
-                  App Developer · Lagos, Nigeria
+                  App Developer · Enugu, Nigeria
                 </div>
               </div>
             </div>
@@ -1216,14 +1216,14 @@ export default function Home() {
               Engineering digital products with curiosity, grit, and precision.
             </h2>
             <p className={styles.aboutParagraph}>
-              I am an app developer based in Nigeria, dedicated to building
+              I am an app developer based in Enugu, Nigeria, dedicated to building
               responsive interfaces and interactive mobile-first systems. I
               believe that an engineer’s strength lies not merely in how many
               repositories they have, but in the depth of thought, clean
               structure, and craft they bring to the problems they solve.
             </p>
             <p className={styles.aboutParagraph}>
-              With my flagship project <strong>Fareexplore</strong>, I explored
+              With my flagship project <strong>Fare Tour</strong>, I explored
               the intersection of local food discovery, transactional cart
               computation, and multi-stage order tracking. I am currently
               seeking an app developer role where I can collaborate with
@@ -1295,7 +1295,7 @@ export default function Home() {
 
             {/* WhatsApp Card */}
             <a
-              href="https://wa.me/2348000000000?text=Hi%20Arinze%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity%21"
+              href="https://wa.me/2348162457381?text=Hi%20Arinze%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity%21"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contactCard}
@@ -1341,7 +1341,7 @@ export default function Home() {
 
             {/* X Card */}
             <a
-              href="https://x.com"
+              href="https://x.com/udoye_Michael"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.contactCard}
@@ -1358,7 +1358,7 @@ export default function Home() {
               </div>
               <span className={styles.contactCardTitle}>X / Twitter</span>
               <span className={styles.contactCardAction}>
-                Follow & Message ↗
+                @udoye_Michael ↗
               </span>
             </a>
           </div>
@@ -1466,7 +1466,7 @@ export default function Home() {
               © 2026 Udoye Arinze. All rights reserved.
             </div>
             <div className={styles.footerMeta}>
-              App Developer · Based in Nigeria 🇳🇬 · West Africa Time (UTC+1)
+              App Developer · Based in Enugu, Nigeria 🇳🇬 · West Africa Time (UTC+1)
             </div>
           </div>
 
